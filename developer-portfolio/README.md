@@ -2,5 +2,5 @@
 
 ## Things I may want to change:
 - main hero image
-- icon images
-- 
+- screenshots of my projects for the pictures
+- urls for my projects
