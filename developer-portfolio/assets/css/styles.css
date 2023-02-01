@@ -273,12 +273,22 @@ nav ul li {
   font-size: 1rem;
   font-weight: var(--bold-font);
   transition: var(--transition);
+
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .submit-btn:hover {
   background-color: var(--secondary-color);
   border: 2px solid var(--primary-color);
   cursor: pointer;
+  transform: scale(0.9);
 }
 
 /* Socials */
@@ -293,6 +303,21 @@ nav ul li {
 .socicon {
   width: 3rem;
   height: 3rem;
+  margin: 0.2rem;
+
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.socicon:hover,
+.socicon:focus,
+.socicon:active {
+    transform: scale(1.1);
 }
 
 /* Footer */
