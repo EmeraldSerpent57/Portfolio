@@ -304,3 +304,15 @@ footer {
     font-size: x-small;
 }
 
+/* Scroll Icon */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 4rem;
+  height: 4rem;
+}
