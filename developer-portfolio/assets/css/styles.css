@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto+Slab&display=swap');
+@import 'animate.css';
 
 /* Variables */
 :root {
@@ -44,6 +45,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: #edebed;
 }
 
 /* Navigation */
@@ -99,7 +101,7 @@ nav ul li {
   justify-content: center;
   gap: 2.5rem;
   max-width: 68.75rem;
-  margin: auto;
+  margin: 2rem;
 }
 
 .hero img {
@@ -112,6 +114,7 @@ nav ul li {
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  background-color: var(--bg-color);
 }
 
 .bio h1 {
@@ -127,10 +130,11 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  margin-bottom: 4rem;
 }
 
 .more-about h2 {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
@@ -138,6 +142,7 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  
 }
 
 /* Skills Section*/
@@ -234,6 +239,7 @@ nav ul li {
   padding: 0.938rem;
   border-radius: 5px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
+  background-color: var(--bg-color);
 }
 
 .contact-form-container label {
@@ -341,3 +347,103 @@ footer {
   width: 4rem;
   height: 4rem;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+   nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  .hero {
+    margin-top: -1rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+        height: 30rem;
+        width: 25rem;
+    }
+
+  .bio {
+    margin-top: .2rem;
+    width: 20.5rem;
+  }
+
+  .more-about {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .more-about h2 {
+    text-align: center;
+  }
+
+  .more-about p {
+    text-align: justify;
+  }
+
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+
+   .projects-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 20.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+    /*changes reflects on screen with a width of 420px and below*/
+  .hero img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
+  }
+
+  .project-container {
+    width: 17.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
+  }
+} 
