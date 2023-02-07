@@ -127,6 +127,7 @@ nav ul li {
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+  font-family:  "Aboreto", cursive;
 }
 
 .bio p {
@@ -145,6 +146,7 @@ nav ul li {
   margin-top: 2rem;
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  font-family:  "Aboreto", cursive;
 }
 
 .more-about img {
@@ -167,8 +169,20 @@ nav ul li {
   margin-top: 2rem;
 }
 
+.skills figure {
+    display: inline-flex;
+}
+
+.skills-wrapper p {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
 .skill-header {
   margin-bottom: 1rem;
+  font-family:  "Aboreto", cursive;
 }
 
 .skills-wrapper img {
@@ -176,8 +190,8 @@ nav ul li {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 13rem;
+  height: 12.75rem;
 }
 
 .icon-card {
@@ -209,12 +223,14 @@ nav ul li {
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
+  font-family:  "Aboreto", cursive;
 }
 
 .project-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  
 }
 
 .project-container p {
@@ -223,6 +239,7 @@ nav ul li {
 
 .project-title {
   margin-bottom: var(--bottom-margin);
+  font-family:  "Aboreto", cursive;
 }
 
 .project-details {
@@ -245,6 +262,7 @@ nav ul li {
 .contact h2 {
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
+  font-family:  "Aboreto", cursive;
 }
 
 .contact-form-container {
