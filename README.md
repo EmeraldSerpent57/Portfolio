@@ -26,6 +26,7 @@ Icons:
 <a href="https://www.flaticon.com/free-icons/backend" title="backend icons">Backend icons created by Eucalyp - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/personality" title="personality icons">Personality icons created by Eucalyp - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/data-analytics" title="data analytics icons">Data analytics icons created by iconixar - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Vector Valley - Flaticon</a>
 
 Animations:
 [Hover.css](https://github.com/IanLunn/Hover)

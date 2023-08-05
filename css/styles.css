@@ -453,6 +453,11 @@ footer {
     height: 5.25rem;
   }
 
+  .skills-wrapper p {
+    font-size: 8.3px;
+    padding-top: .2rem;
+  }
+
    .projects-container {
     flex-direction: column;
   }
